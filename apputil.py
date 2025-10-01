@@ -14,7 +14,7 @@ except FileNotFoundError:
 
 
 
-#--------------------#
+#----------------------------------------------------------------------------------------------------#
 #-----FUNCTION DEFS-----#
 def survival_demographics(df_titanic):
     #debug code
@@ -109,8 +109,9 @@ def visualize_demographic(df_demographics):
 
 
 
-#--------------------#
+#----------------------------------------------------------------------------------------------------#
 #-----MAIN-----#
+#-----EXERCISE 1-----#
 #debuge code
 #print(survival_demographics(df_titanic))
 
@@ -120,3 +121,9 @@ bar_chart_output = visualize_demographic(survival_demographics(df_titanic))
 st.plotly_chart(bar_chart_output, use_container_width=True) 
 
 print("---Bar Chart for the question ""How does class impact the survival rate of men""---")
+
+
+#--------------------#
+#-----EXERCISE 2-----#
+
+#blah
